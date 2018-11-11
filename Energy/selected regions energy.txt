@@ -1,0 +1,40 @@
+Energies for Fixed Protein - KASH peptides
+
+Residues 0:-31
+
+P1
+
+	Mean:		-308.311
+	St Dev:		86.999
+
+P2
+
+	Mean:		-163.720
+	St Dev:		69.562
+
+P3
+
+	Mean:		-104.151
+	St Dev:		52.625
+	
+P4
+
+	Mean:		-187.745
+	St Dev:		67.263
+
+
+Residues -23:-31
+
+P1
+
+	Mean:		-195.864
+	St Dev:		44.691
+
+P2
+
+	Mean:		-135.352
+	St Dev:		52.136
+
+
+
+

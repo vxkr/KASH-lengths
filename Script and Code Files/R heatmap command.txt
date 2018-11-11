@@ -1,0 +1,68 @@
+p1_heatmap <- 
+	heatmap.2(
+		p1,
+		main="P1 RMSD",
+		col=colorRampPalette(c("lightsalmon1","salmon1","orchid1","orchid4","deeppink4"))(160),
+		breaks=seq(0,80,by=0.5),
+		Rowv=NULL,
+		Colv=NULL,
+		labCol= row,
+		key=TRUE,
+		adjRow=c(1,0),
+		adjCol=c(0,1),
+		symkey=FALSE,
+		keysize=1,
+		density.info="none",
+		trace='none',
+		cexRow=0.9,
+		cexCol=0.9, 
+		key.ylab=NA, 
+		offsetRow = 2, 
+		offsetCol = 1
+	)
+	
+p4_heatmap <- 
+    heatmap.2(
+         p4,
+         main="P4 RMSD",
+         col=colorRampPalette(c("deepskyblue4","deepskyblue1","orchid3","orchid4","deeppink4"))(125),
+         breaks=seq(0,80,by=0.64),
+         Rowv=NULL,
+         Colv=NULL,
+         labCol= row,
+         key=TRUE,
+         adjRow=c(1,0),
+         adjCol=c(0,1),
+         symkey=FALSE,
+         keysize=1,
+         density.info="none",
+         trace='none',
+         cexRow=0.9,
+         cexCol=0.9, 
+         key.ylab=NA, 
+         offsetRow = 2, 
+         offsetCol = 1
+    )
+	
+p4_heatmap <- 
+     heatmap.2(
+         p4,
+         main="P4 RMSD",
+         col=colorRampPalette(c("deepskyblue1","lightsalmon","orchid3","orchid4","deeppink4"))(125),
+         breaks=seq(0,80,by=0.64),
+         Rowv=NULL,
+         Colv=NULL,
+         labCol= row,
+         key=TRUE,
+         adjRow=c(1,0),
+         adjCol=c(0,1),
+         symkey=FALSE,
+         keysize=1,
+         density.info="none",
+         trace='none',
+         cexRow=0.9,
+         cexCol=0.9, 
+         key.ylab=NA, 
+         offsetRow = 2, 
+         offsetCol = 1
+    )

@@ -1,0 +1,4 @@
+plot("x", "y1", ylab="Y_Axis", xlab="X_Axis", typ="l", col = "brown1", lwd = 2, ylim = c(0, 10))
+lines(y2, typ="l", col="darkolivegreen4", lwd=2)
+lines(y3, typ="l", col="dodgerblue4", lwd=2)
+lines(y4, typ="l", col="darkgoldenrod2", lwd=2)
